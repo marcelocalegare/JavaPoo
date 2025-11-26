@@ -18,6 +18,28 @@ public class CriaConta {
         System.out.println("Saldo: " + primeiraConta.saldo);
         System.out.println("------------------------------");
 
+        primeiraConta.deposita(10);
+
+        System.out.println("------------------------------");
+        System.out.println("Titular: " + primeiraConta.titular);
+        System.out.println("Agencia: " + primeiraConta.agencia);
+        System.out.println("Numero: " + primeiraConta.numero);
+        System.out.println("Saldo: " + primeiraConta.saldo);
+        System.out.println("------------------------------");
+
+        boolean statusSaque = primeiraConta.saca(40);
+
+        System.out.println("------------------------------");
+        System.out.println("Titular: " + primeiraConta.titular);
+        System.out.println("Agencia: " + primeiraConta.agencia);
+        System.out.println("Numero: " + primeiraConta.numero);
+        System.out.println("Saldo: " + primeiraConta.saldo);
+        System.out.println("Status do saque: "+ statusSaque);
+        System.out.println("------------------------------");
+
     }
 
 }
+
+
+/* testando alguns metodos dentro de uma classe em java */
